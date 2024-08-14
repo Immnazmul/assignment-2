@@ -12,7 +12,7 @@
  }
 /* shared styles */
 .bg-color-1{
-    color:#ffffff91;
+    color:hsla(0, 0%, 100%, 0.569);
 }
 .display-flex{
     display: flex;
@@ -45,6 +45,11 @@ align-items: center;
     font-size: 1.1rem;
     border: none;
    }
+   .section-title{
+    font-family:"Inter";
+    font-weight: 900px;
+    font-size: 2.5rem;
+   }
 /* nav section start */
 .brand{
     color:#E6533C;
@@ -66,12 +71,14 @@ align-items: center;
 /* banner section start */
 #font-2{
     font-family: 'Miama', sans-serif;
-    font-style: italic;
+    font-style: normal;
+    font-size: 5.2rem;
 }
 
 .banner-title{
     font-weight: 900;
     font-size: 3.25rem;
+line-height: 3.5rem;
 }
 .banner-img{
     position: relative;
@@ -118,6 +125,10 @@ align-items: center;
     margin: -250px 1050px 0px 750px;
     border:none;
 }
+.number,
+.description{
+    line-height: 1rem;
+}
 /* main section start */
 main{
     background-color: #000000;
@@ -155,8 +166,23 @@ main{
 border-radius: 10px;
 
 }
+/* training section start */
+.box-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
 
-
+}
+.box{
+    position:relative;
+}
+.box-container>.box>img{
+    max-width: 250px;
+    height: 200px;
+}
+.box-text{
+    position: absolute;
+    top:25%;
+}
 
 
 
