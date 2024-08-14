@@ -19,14 +19,17 @@
 }
 .navbar, 
 .banner,
+.calculator-container,
 footer
 {
 background-color: #222222;
 }
 .navbar, 
 .banner,
-footer,
-main
+.training-section,
+.habit-section,
+.section-title-container,
+footer
 {
 max-width: 1440px;
 padding: 20px 100px; 
@@ -130,7 +133,9 @@ line-height: 3.5rem;
     line-height: 1rem;
 }
 /* main section start */
-main{
+.training-section,
+.habit-section,
+.section-title-container{
     background-color: #000000;
     background-size: 100%;
 }
@@ -176,15 +181,29 @@ border-radius: 10px;
     position:relative;
 }
 .box-container>.box>img{
-    max-width: 250px;
+    width: 250px;
     height: 200px;
 }
 .box-text{
     position: absolute;
     top:25%;
 }
-
-
+/* calculator section start */
+.section-title-container{
+    align-items: center;
+  
+}
+.calculator-container{
+    padding:20px 100px;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1440px;
+}
+.calculator-form
+{
+    width:577px;
+    height: auto;
+}
 
 
 /* Footer section start */
