@@ -4,7 +4,7 @@
 
  *{  font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
@@ -48,12 +48,25 @@ align-items: center;
     font-weight: 500;
     font-size: 1.1rem;
     border: none;
+    margin-top: 20px;
    }
    .section-title{
-    font-family:"Inter";
+    font-family: "Inter", sans-serif;
     font-weight: 900px;
     font-size: 2.5rem;
+    line-height: 1rem;
    }
+   .training-section,
+.habit-section,
+.section-title-container,
+.team-section{
+    background-color: #000000;
+    background-size: 100%;
+}
+.habit-section,
+.team-section{
+    text-align: center;
+}
 /* nav section start */
 .brand{
     color:#E6533C;
@@ -61,6 +74,13 @@ align-items: center;
     font-size: 2.15rem;
     font-style: italic;
 }
+#home-btn
+{background-color:#E6533C;
+border-radius: 45px;
+padding: 8px 20px;
+font-weight: 500;
+font-size: 1.1rem;
+border: none;}
 .nav-links{
 list-style-type:none;
 gap: 40px;
@@ -75,8 +95,9 @@ align-items: center;
 /* banner section start */
 #font-2{
     font-family: 'Miama', sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 5.2rem;
+    font-size: 5.5rem;
 }
 
 .banner-title{
@@ -134,17 +155,12 @@ line-height: 3.5rem;
     line-height: 1rem;
 }
 /* main section start */
-.training-section,
-.habit-section,
-.section-title-container,
-.team-section{
-    background-color: #000000;
-    background-size: 100%;
-}
-.habit-section{
-    text-align: center;
-}
+
 /* change habit section start */
+.habit-content{
+    margin-top: 50px;
+   margin-right: 25px;
+}
 .habit-image{
     border-radius: 50%;
     border: 2px solid #222222;
@@ -157,12 +173,12 @@ line-height: 3.5rem;
 .habit-section-card{
     background-color: #222222;
     height: 300px;
-    padding: 15px 30px;
+    padding: 30px 28px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 12px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .card-container{
     text-align: left;
@@ -170,7 +186,7 @@ line-height: 3.5rem;
 .card-image>img{
  width: 270px;
  height: 40vh;
-border-radius: 10px;
+border-radius: 18px;
 }
 /* training section start */
 .box-container{
@@ -191,7 +207,8 @@ border-radius: 10px;
 }
 /* calculator section start */
 .section-title-container{
-    align-items: center;
+    padding-left: 384px;
+    padding-right: 384px;
 }
 .calculator-container{
     padding:20px 100px;
@@ -271,6 +288,8 @@ width: 193%;
     overflow: hidden;
     padding:20px;
     border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
    
 }
 .card{
