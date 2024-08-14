@@ -199,6 +199,24 @@ border-radius: 10px;
     align-items:center;
     max-width: 1440px;
 }
+table, th, tr, td{
+    border: 1px solid
+    rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+table{
+    text-align: left;
+    width: 110%;
+    height: 30%;
+}
+th{
+    font-weight: 500;
+    font-size: 1rem;
+}
+td{
+    font-weight: 400;
+    font-size: 0.875rem;
+}
 .calculator-form
 {
     width:577px;
