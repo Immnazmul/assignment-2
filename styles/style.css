@@ -203,11 +203,12 @@ table, th, tr, td{
     border: 1px solid
     rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
+    padding-left: 10px;
 }
 table{
     text-align: left;
     width: 110%;
-    height: 30%;
+    height: 50%;
 }
 th{
     font-weight: 500;
@@ -216,11 +217,36 @@ th{
 td{
     font-weight: 400;
     font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 .calculator-form
 {
     width:577px;
     height: auto;
+}
+.form
+{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    text-align: left;
+}
+.input-box,.select-container{
+    width: 280px;
+    height: 48px;
+}
+.input-box input,
+.select-box-1, .select-box-2{
+    padding:12px 40px 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+}
+.select-box-1{
+    width:90%;
+}
+.select-box-2{
+width: 193%;
 }
 /* team section start */
 .team-section-card{
