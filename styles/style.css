@@ -196,8 +196,11 @@ border-radius: 10px;
 .calculator-container{
     padding:20px 100px;
     justify-content: space-between;
-    align-items:center;
+    align-items: baseline;
     max-width: 1440px;
+}
+.chart-title{
+    margin-bottom: 50px;
 }
 table, th, tr, td{
     border: 1px solid
@@ -247,6 +250,17 @@ td{
 }
 .select-box-2{
 width: 193%;
+}
+.btn-4{
+    background-color: #E6533C;
+    padding: 16px 40px;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.10rem;
+    border: none;
+    margin-top: 30px;
 }
 /* team section start */
 .team-section-card{
