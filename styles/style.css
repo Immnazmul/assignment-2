@@ -363,17 +363,20 @@ margin-bottom: 10px;
         display: none;
     }
     .banner,
-    .footer-container{
+    .footer-container,
+    .habit-section-container, 
+    .habit-section-card{
         flex-direction: column;
     }
     .banner-btn{
         justify-content: space-between;
     }
 .banner-title,
-footer, .footer-container,
-.description{
+.footer-container,
+.description,footer{
     text-align: left;
     max-width: 80%;
+    margin-left: 0px;
 }
 .banner-title{
     font-size: 2rem;
@@ -385,4 +388,8 @@ footer, .footer-container,
 .glass-2{
     margin: -550px 750px 0px 750px;
 }
+}
+.habit-content>p, .habit-content>.habit-title{
+    text-align: center; 
+    margin: 10px auto; 
 }
