@@ -388,10 +388,10 @@ margin-bottom: 10px;
 .glass-2{
     margin: -550px 750px 0px 750px;
 }
-}
+
 .habit-content>p, .habit-content>.habit-title, .team-section-text{
     text-align: center; 
     margin: 10px auto; 
 }
 .team-section-card{
-    grid-template-columns: 1fr;}
+    grid-template-columns: 1fr;}}
