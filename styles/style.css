@@ -68,6 +68,9 @@ align-items: center;
     text-align: center;
 }
 /* nav section start */
+#icn{
+    display:none;
+}
 .brand{
     color:#E6533C;
     font-weight: 800; 
@@ -361,6 +364,9 @@ margin-bottom: 10px;
     }
     .nav-links{
         display: none;
+    }
+    #icn{
+        display:contents;
     }
     .banner,
     .footer-container,
