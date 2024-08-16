@@ -365,7 +365,7 @@ margin-bottom: 10px;
     .banner,
     .footer-container,
     .habit-section-container, 
-    .habit-section-card{
+    .habit-section-card , .calculator-container{
         flex-direction: column;
     }
     .banner-btn{
@@ -389,7 +389,9 @@ margin-bottom: 10px;
     margin: -550px 750px 0px 750px;
 }
 }
-.habit-content>p, .habit-content>.habit-title{
+.habit-content>p, .habit-content>.habit-title, .team-section-text{
     text-align: center; 
     margin: 10px auto; 
 }
+.team-section-card{
+    grid-template-columns: 1fr;}
